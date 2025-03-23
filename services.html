@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8B4513; /* Brown background */
+            color: #fff; /* White text for better contrast */
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #A0522D; /* Slightly lighter brown for the container */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #D2691E; /* Light brown border */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #FFD700; /* Gold color for the heading */
+        }
+
+        /* Navigation Styles */
+        nav {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 10px 15px;
+            border-radius: 5px;
+            background-color: #D2691E; /* Light brown background for buttons */
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #FFD700; /* Gold color on hover */
+            color: #8B4513; /* Brown text on hover */
+            transform: scale(1.05); /* Slight zoom effect */
+        }
+
+        /* Section Styles */
+        section {
+            margin: 40px 0;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #FFD700; /* Gold color for headings */
+            margin-bottom: 20px;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+
+        section p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        section ul li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        /* Card Styles for Recommendations */
+        .card {
+            background-color: #D2691E; /* Light brown background for cards */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            color: #FFD700; /* Gold color for card headings */
+            margin-bottom: 15px;
+        }
+
+        .card ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .card ul li {
+            margin-bottom: 10px;
+            color: #fff; /* White text for list items */
+        }
+
+        .card ul li::before {
+            content: "•";
+            color: #FFD700; /* Gold color for bullet points */
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            border-top: 2px solid #D2691E; /* Light brown border */
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Services</h1>
+            <nav>
+                <a href="login.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="services.html">Services</a>
+                <a href="testimonial.html">Testimonial</a>
+            </nav>
+        </header>
+
+        <!-- Safety Tips Section -->
+        <section>
+            <h2>Safety Tips to Avoid Accidents</h2>
+            <div class="card">
+                <p>Here are some safety tips to help you avoid accidents:</p>
+                <ul>
+                    <li>Always wear your seatbelt while driving or riding in a vehicle.</li>
+                    <li>Avoid distractions such as using your phone while driving.</li>
+                    <li>Follow traffic rules and speed limits.</li>
+                    <li>Ensure your vehicle is well-maintained and in good working condition.</li>
+                    <li>Be cautious during adverse weather conditions like rain or fog.</li>
+                    <li>Never drive under the influence of alcohol or drugs.</li>
+                </ul>
+                <p><strong>Citation:</strong> World Health Organization (WHO), 2023.</p>
+            </div>
+        </section>
+
+        <!-- Recommendations Section -->
+        <section>
+            <h2>Recommendations for Vehicular Accident Survivors</h2>
+            <div class="card">
+                <h3>For Vehicular Drivers</h3>
+                <ul>
+                    <li>Attend defensive driving courses to improve your driving skills.</li>
+                    <li>Always carry a first-aid kit and emergency tools in your vehicle.</li>
+                    <li>Report accidents immediately to the authorities.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>For LTO (Land Transportation Office)</h3>
+                <ul>
+                    <li>Conduct regular road safety campaigns and seminars.</li>
+                    <li>Enforce stricter penalties for traffic violations.</li>
+                    <li>Improve driver licensing and testing procedures.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>For MDRRMC (Municipal Disaster Risk Reduction and Management Council)</h3>
+                <ul>
+                    <li>Enhance emergency response systems for accidents.</li>
+                    <li>Conduct regular disaster preparedness drills.</li>
+                    <li>Provide first-aid training to the community.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>For Students</h3>
+                <ul>
+                    <li>Participate in road safety awareness programs.</li>
+                    <li>Spread awareness about traffic rules among peers.</li>
+                    <li>Use designated pedestrian crossings and follow traffic signals.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>For Future Researchers</h3>
+                <ul>
+                    <li>Conduct studies on the causes and prevention of vehicular accidents.</li>
+                    <li>Develop innovative solutions for road safety.</li>
+                    <li>Collaborate with government agencies to implement research findings.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>For LGU Polomolok</h3>
+                <ul>
+                    <li>Improve road infrastructure and signage.</li>
+                    <li>Install speed bumps and traffic lights in accident-prone areas.</li>
+                    <li>Support community-based road safety initiatives.</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Life On Line. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
